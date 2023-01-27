@@ -18,17 +18,17 @@ const coffeeShop = {
     },
     foodOrdered (amountOfItems) {
         let total = 0;
-        let drinksString = "";
+        let foodsString = "";
         let _branch = this.branch[Math.floor(Math.random()*this.branch.length)]
 
         for (let amount = 0; amount < amountOfItems; amount++) {
             const _food = this.food[Math.floor(Math.random()*this.food.length)];
             total += _food["cost"];
 
-            drinksString += `\n${_food["item"]}: ${_food["cost"].toFixed(2)}`;
+            foodsString += `\n${_food["item"]}: ${_food["cost"].toFixed(2)}`;
         }
 
-        return `${_branch} Order: ${drinksString}\nYour total cost is: ${total.toFixed(2)}`
+        return `${_branch} Order: ${foodsString}\nYour total cost is: ${total.toFixed(2)}`
     },
 }
 
