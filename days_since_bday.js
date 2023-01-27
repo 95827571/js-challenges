@@ -5,5 +5,5 @@ let currentDay = new Date();
 let differenceInMiliseconds = currentDay.getTime() - personsBirthday.getTime();
 
 // Converts miliseconds to days
-let milisecondsInDays = Math.ceil(differenceInMiliseconds / (1000 * 3600 * 24));
+let milisecondsInDays = Math.floor(differenceInMiliseconds / (1000 * 3600 * 24));
 console.log(milisecondsInDays);
