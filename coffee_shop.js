@@ -1,3 +1,4 @@
+// returns a random item from the array, remember dry. :)
 getRandomItemFromArray = (array) => {
     return array[Math.floor(Math.random()*array.length)];
 }
