@@ -54,4 +54,4 @@ const coffeeShop = {
 }
 
 console.log(coffeeShop.drinksOrdered(2));
-console.log(coffeeShop.foodOrdered(4));
+console.log(coffeeShop.foodOrdered(1));

@@ -1,7 +1,7 @@
 
 const shopItems = [
     "bread",
-    "bupcake",
+    "cupcake",
     "baguette",
     "salad",
     "pizza",                // mmmmmmmmm
@@ -10,8 +10,7 @@ const shopItems = [
 
 // Gets a random item from the list
 const getRandomItem = () => {
-    const randomItem = shopItems[Math.floor(Math.random()*shopItems.length)]
-    return randomItem;
+    return shopItems[Math.floor(Math.random()*shopItems.length)];
 }
 
 // Since I have no idea how to do inputs its gonna randomise what item you get
