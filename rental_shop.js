@@ -38,10 +38,6 @@ class Shop {
         return this.#name;
     }
 
-    set name(value) {
-        this.#name = value;
-    }
-
     // Gets the private property number
     get number() {
         return this.#number;
