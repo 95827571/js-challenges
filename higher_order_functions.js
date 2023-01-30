@@ -11,5 +11,5 @@ const printCharAsASCIICode = (char) => {
     console.log(char.charCodeAt(0));
 }
 
-forEachCharacter("hello", printCharAsASCIICode);
+forEachCharacter("Hello", printCharAsASCIICode);
 forEachCharacter("Philip", (char) => {console.log(char)});
