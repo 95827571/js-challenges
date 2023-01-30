@@ -70,5 +70,8 @@ console.log(`Is ${stringToCheck} Palindrome: ${stringToCheck === reversedString}
 //         case 4:
 //             console.log("This is a strong password");
 //             break;
+//         default:
+//             console.log("Your password is clearly the best password to exist.");
+//             break;
 //     }
 // }
