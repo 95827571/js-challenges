@@ -13,7 +13,7 @@ class Item {
 
     // Gets the property price of item
     get priceOfItem() {
-        // We use the _ or else the getter and setter will cause a stack overflow
+        // We use the _ or else the getter and setter will cause a stack overflow error
         return this._priceOfItem;
     }
 
