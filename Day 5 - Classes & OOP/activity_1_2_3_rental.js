@@ -51,7 +51,7 @@ class Shop {
     // Private method, only accessible inside the class
     // Just finds the item asked for
     #findItem (itemName) {
-        return this.#itemsArray.find(item => item.nameOfItem === itemName)
+        return this.#itemsArray.find(item => item.nameOfItem === itemName);
     }
 
     // Lists all the movies in a nice format
@@ -62,13 +62,13 @@ class Shop {
             movieString += `${element.nameOfItem}: £${element.priceOfItem.toFixed(2)}\n`;
         }
 
-        console.log(movieString)
+        console.log(movieString);
     }
 
     // Finds the item given, and displays its price and name
     buyItem (itemName) {
         let item = this.#findItem(itemName);
-        console.log(`Thank you for buying the item ${item.nameOfItem}, that will be £${item.priceOfItem.toFixed(2)} please.`)
+        console.log(`Thank you for buying the item ${item.nameOfItem}, that will be £${item.priceOfItem.toFixed(2)} please.`);
     }
 }
 

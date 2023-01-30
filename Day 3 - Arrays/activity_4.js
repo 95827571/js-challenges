@@ -29,17 +29,3 @@ console.log(newArray)
 // Adds elements at the start of the array
 favouriteMovies.unshift("South Park Movie", "Inception")
 console.log(favouriteMovies)
-
-
-// activity 5
-let favouriteSongs = [
-    "Song 1",
-    "Song 2",
-    "Song 3",
-]
-
-favouriteSongs.push("Song 4", "Song 5");
-console.log(favouriteSongs);
-
-favouriteSongs.pop();
-console.log(favouriteSongs);

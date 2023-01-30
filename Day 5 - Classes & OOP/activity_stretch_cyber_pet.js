@@ -48,6 +48,7 @@ class Fish extends CyberPet {
         return this.#typeOfFish;
     }
 
+    // Overrides original play func
     play () {
         console.log(`You are playing with ${super.petName}, your cute little ${this.#typeOfFish}, he swims around very quickly.`)
     }
@@ -65,6 +66,7 @@ class Dog extends CyberPet {
         return this.#typeOfDog;
     }
 
+    // Overrides original play func
     play () {
         console.log(`You run around with ${super.petName} and throw a ball, he is a very happy ${super.typeOfPet} :D`)
     }

@@ -1,3 +1,4 @@
+// Creates new date
 const personsBirthday = new Date(2002, 11, 25);
 let currentDay = new Date();
 
