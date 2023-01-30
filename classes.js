@@ -1,44 +1,70 @@
-class Vehicle {
-    #vehicleType;
+// class Vehicle {
+//     #vehicleType;
+//     #name;
 
-    get vehicleType() {
-        return this.#vehicleType;
-    }
+//     get vehicleType() {
+//         return this.#vehicleType;
+//     }
 
-    drive = () => {
-        return "Brrrr";
-    }
+//     get name() {
+//         return this.#name;
+//     }
 
-    constructor(vehicleType) {
-        this.#vehicleType = vehicleType;
-    }
-}
+//     drive = () => {
+//         return "Brrrr";
+//     }
 
-class Tank extends Vehicle {
-    #country;
-    #tankName;
+//     constructor(vehicleType, name) {
+//         this.#vehicleType = vehicleType;
+//         this.#name = name;
+//     }
+// }
 
-    get country() {
-        return this.#country;
-    }
+// class Tank extends Vehicle {
+//     #country;
+//     #groundSpeed;
 
-    get tankName() {
-        return this.#tankName;
-    }
+//     get country() {
+//         return this.#country;
+//     }
 
-    constructor(country, tankName) {
-        super("Tank")
-        this.#country = country;
-        this.#tankName = tankName;
-    }
+//     get groundSpeed() {
+//         return this.#groundSpeed;
+//     }
 
-    // Overriden drive from default class
-    drive = () => {
-        return `The ${this.#tankName} has started driving!`;
-    }
-}
+//     constructor(country, tankName, groundSpeed) {
+//         super("Tank", tankName)
+//         this.#country = country;
+//         this.#groundSpeed = groundSpeed;
+//     }
 
-let challengerTank = new Tank("England", "Challenger II");
-let leopardTank = new Tank("Germany", "Leopard 2");
+//     // Overriden drive from default class --  Example of polymorphism
+//     drive = () => {
+//         return `The ${super.name} has started driving!`;
+//     }
+// }
 
-console.log(leopardTank.drive());
+// class Helicopter extends Vehicle {
+//     #flightSpeed;
+
+//     constructor(helicopterName, flightSpeed) {
+//         super("Helicopter", helicopterName)
+//         this.#flightSpeed = flightSpeed;
+//     }
+
+//     get flightSpeed() {
+//         return this.#flightSpeed;
+//     }
+
+//     drive = () => {
+//         return ""
+//     }
+// }
+
+// let challengerTank = new Tank("England", "Challenger II");
+// let leopardTank = new Tank("Germany", "Leopard 2");
+
+// console.log(leopardTank.drive());
+
+
+
