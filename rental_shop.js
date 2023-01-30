@@ -16,9 +16,9 @@ class Item {
 }
 
 class Shop {
-    #name = "default"
+    #name = ""
     #number = 000000000
-    #itemsArray = [new Item("default", 94)]
+    #itemsArray = [new Item("placeholder", 0)]
     constructor(name, number, itemsArray) {
         this.#name = name;
         this.#number = number;
