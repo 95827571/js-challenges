@@ -65,6 +65,3 @@
 // let leopardTank = new Tank("Germany", "Leopard 2");
 
 // console.log(leopardTank.drive());
-
-
-

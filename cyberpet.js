@@ -7,7 +7,6 @@ class CyberPet {
         this.#typeOfPet = typeOfPet;
         this.#age = age;
     }
-
     get petName() {
         return this.#petName;
     }
