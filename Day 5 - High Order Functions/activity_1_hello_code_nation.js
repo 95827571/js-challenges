@@ -3,10 +3,10 @@ const helloCodeNation = () => {
 }
 
 // loops 5 times, calling the func each time
-const doFuncFiveTimes = (func) => {
-    for (let i = 0; i < 5; i++) {
+const doFuncFiveTimes = (func, num) => {
+    for (let i = 0; i < num; i++) {
         func();
     }
 }
 
-doFuncFiveTimes(helloCodeNation);
+doFuncFiveTimes(helloCodeNation, 5);
